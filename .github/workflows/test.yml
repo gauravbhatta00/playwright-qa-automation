@@ -31,7 +31,7 @@ jobs:
 
       - name: Run pytest
         run: |
-          pytest tests/ -v --html=report.html --self-contained-html
+          pytest tests/ -v --headless --html=report.html --self-contained-html
 
       - name: Upload HTML report
         if: always()

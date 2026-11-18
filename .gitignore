@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+report.html
+*.log
+screenshots/
+screenshot.png
+auth.json
+.history/
